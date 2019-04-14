@@ -1,6 +1,6 @@
 {
   "name": "files-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This creates a file list with reading a directory recursively.\r It can also callback each filename one by one. And the callback can be async.",
   "main": "index.js",
   "directories": {
@@ -13,9 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/takamin/files-async.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "find",
+    "file",
+    "readdir"
+  ],
+  "author": "Koji Takami <vzg03566@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/takamin/files-async/issues"
   },
